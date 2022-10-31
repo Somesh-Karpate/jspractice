@@ -15,7 +15,7 @@ class Stack{
         this.item[this.top]=element;
     }
     pop(){
-        if(this.top == -1){
+        if(this.isEmpty()){
             console.log("STACK UNDERFLOW");
             return;
         }
