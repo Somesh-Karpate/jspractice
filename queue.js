@@ -1,3 +1,6 @@
+//queue using array
+
+
 class Queue{
     constructor(capacity){
         this.capacity = capacity;
